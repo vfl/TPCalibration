@@ -6,6 +6,10 @@ source /afs/cern.ch/sw/lcg/external/gcc/4.8/x86_64-slc6/setup.sh
 export PATH="/afs/cern.ch/sw/lcg/external/Python/2.7.4/x86_64-slc6-gcc48-opt/bin:$PATH"
 export LD_LIBRARY_PATH="/afs/cern.ch/sw/lcg/external/Python/2.7.4/x86_64-slc6-gcc48-opt/lib:$LD_LIBRARY_PATH" 
 
+#The /eng/clic/TBData/ location is not acessible by me (z5). The ROOT6 can be used with:
+# source /afs/cern.ch/sw/lcg/contrib/gcc/4.8/x86_64-slc6/setup.sh
+# source /afs/cern.ch/sw/lcg/app/releases/ROOT/6.00.02/x86_64-slc6-gcc48-opt/root/bin/thisroot.sh
+#But the python libraries cant be found.
 
 #numpy/scipy/sympy
 
